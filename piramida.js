@@ -33,7 +33,7 @@ function piramidBawah(height){
 
 function inputValidation (height,event){
   if(height > 10 ||height < 1){
-   alert("masukkan angka dari 1-10");
+   alert("masukkan angka dari 1-10 aja yah");
    event.preventDefault();
   }
 }
